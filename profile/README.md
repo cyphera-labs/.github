@@ -18,16 +18,16 @@ Open source data protection — cross-language SDKs and native database integrat
 
 ## Integrations
 
-| Platform | Repo | Type | Powered By |
-|----------|------|------|------------|
-| [Trino](https://github.com/cyphera-labs/cyphera-trino) | cyphera-trino | SQL UDF plugin | cyphera-java |
-| [PostgreSQL](https://github.com/cyphera-labs/cyphera-postgres) | cyphera-postgres | Native extension (pgrx) | cyphera-rust |
-| [Snowflake](https://github.com/cyphera-labs/cyphera-snowflake) | cyphera-snowflake | Java UDF | cyphera-java |
-| [Databricks](https://github.com/cyphera-labs/cyphera-databricks) | cyphera-databricks | Spark UDF | cyphera-java |
-| [BigQuery](https://github.com/cyphera-labs/cyphera-bq) | cyphera-bq | Remote UDF | cyphera-go |
-| [Informatica](https://github.com/cyphera-labs/cyphera-informatica) | cyphera-informatica | Java transformation | cyphera-java |
-| [Striim](https://github.com/cyphera-labs/cyphera-striim) | cyphera-striim | UDF + Open Processor | cyphera-java |
-| [Spring Boot](https://github.com/cyphera-labs/cyphera-spring) | cyphera-spring | Auto-configured starter | cyphera-java |
+| Platform | Repo | Type | Powered By | SDK Version |
+|----------|------|------|------------|-------------|
+| [Trino](https://github.com/cyphera-labs/cyphera-trino) | cyphera-trino | SQL UDF plugin | cyphera-java | 0.0.1-alpha.3 |
+| [PostgreSQL](https://github.com/cyphera-labs/cyphera-postgres) | cyphera-postgres | Native extension (pgrx) | cyphera-rust | 0.0.1-alpha.1 |
+| [Snowflake](https://github.com/cyphera-labs/cyphera-snowflake) | cyphera-snowflake | Java UDF | cyphera-java | 0.0.1-alpha.3 |
+| [Databricks](https://github.com/cyphera-labs/cyphera-databricks) | cyphera-databricks | Spark UDF | cyphera-java | 0.0.1-alpha.3 |
+| [BigQuery](https://github.com/cyphera-labs/cyphera-bq) | cyphera-bq | Remote UDF | cyphera-go | not wired |
+| [Informatica](https://github.com/cyphera-labs/cyphera-informatica) | cyphera-informatica | Java transformation | cyphera-java | 0.0.1-alpha.3 |
+| [Striim](https://github.com/cyphera-labs/cyphera-striim) | cyphera-striim | UDF + Open Processor | cyphera-java | 0.0.1-alpha.3 |
+| [Spring Boot](https://github.com/cyphera-labs/cyphera-spring) | cyphera-spring | Auto-configured starter | cyphera-java | 0.0.1-alpha.3 |
 
 ## Cross-Language Compatible
 
