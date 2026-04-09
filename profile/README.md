@@ -18,15 +18,16 @@ Open source data protection — cross-language SDKs and native database integrat
 
 ## Integrations
 
-| Platform | Repo | Type |
-|----------|------|------|
-| [Trino](https://github.com/cyphera-labs/cyphera-trino) | cyphera-trino | SQL UDF plugin |
-| [PostgreSQL](https://github.com/cyphera-labs/cyphera-postgres) | cyphera-postgres | Native Rust extension (pgrx) |
-| [Snowflake](https://github.com/cyphera-labs/cyphera-snowflake) | cyphera-snowflake | Java UDF |
-| [Databricks](https://github.com/cyphera-labs/cyphera-databricks) | cyphera-databricks | Spark UDF |
-| [BigQuery](https://github.com/cyphera-labs/cyphera-bq) | cyphera-bq | Remote UDF (Go) |
-| [Informatica](https://github.com/cyphera-labs/cyphera-informatica) | cyphera-informatica | Java transformation |
-| [Spring Boot](https://github.com/cyphera-labs/cyphera-spring) | cyphera-spring | Auto-configured starter |
+| Platform | Repo | Type | Powered By |
+|----------|------|------|------------|
+| [Trino](https://github.com/cyphera-labs/cyphera-trino) | cyphera-trino | SQL UDF plugin | cyphera-java |
+| [PostgreSQL](https://github.com/cyphera-labs/cyphera-postgres) | cyphera-postgres | Native extension (pgrx) | cyphera-rust |
+| [Snowflake](https://github.com/cyphera-labs/cyphera-snowflake) | cyphera-snowflake | Java UDF | cyphera-java |
+| [Databricks](https://github.com/cyphera-labs/cyphera-databricks) | cyphera-databricks | Spark UDF | cyphera-java |
+| [BigQuery](https://github.com/cyphera-labs/cyphera-bq) | cyphera-bq | Remote UDF | cyphera-go |
+| [Informatica](https://github.com/cyphera-labs/cyphera-informatica) | cyphera-informatica | Java transformation | cyphera-java |
+| [Striim](https://github.com/cyphera-labs/cyphera-striim) | cyphera-striim | UDF + Open Processor | cyphera-java |
+| [Spring Boot](https://github.com/cyphera-labs/cyphera-spring) | cyphera-spring | Auto-configured starter | cyphera-java |
 
 ## Cross-Language Compatible
 
