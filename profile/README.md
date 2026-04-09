@@ -27,6 +27,7 @@ Open source data protection — cross-language SDKs and native database integrat
 | [BigQuery](https://github.com/cyphera-labs/cyphera-bq) | cyphera-bq | Remote UDF | cyphera-go | not wired |
 | [Informatica](https://github.com/cyphera-labs/cyphera-informatica) | cyphera-informatica | Java transformation | cyphera-java | 0.0.1-alpha.3 |
 | [Striim](https://github.com/cyphera-labs/cyphera-striim) | cyphera-striim | UDF + Open Processor | cyphera-java | 0.0.1-alpha.3 |
+| [Kafka Connect](https://github.com/cyphera-labs/cyphera-kafka-connect) | cyphera-kafka-connect | SMT (Single Message Transform) | cyphera-java | 0.0.1-alpha.3 |
 | [Spring Boot](https://github.com/cyphera-labs/cyphera-spring) | cyphera-spring | Auto-configured starter | cyphera-java | 0.0.1-alpha.3 |
 
 ## Cross-Language Compatible
