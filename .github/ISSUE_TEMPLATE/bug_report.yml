@@ -1,0 +1,51 @@
+name: Bug Report
+description: Report a bug in a Cyphera SDK or integration
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Repository
+      options:
+        - cyphera-java
+        - cyphera-rust
+        - cyphera-go
+        - cyphera-python
+        - cyphera-node
+        - cyphera-dotnet
+        - cyphera-php
+        - cyphera-spring
+        - cyphera-trino
+        - cyphera-postgres
+        - cyphera-snowflake
+        - cyphera-databricks
+        - cyphera-informatica
+        - cyphera-bq
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "0.0.1-alpha.3"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Minimal code or steps to reproduce the issue
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: "e.g. Ubuntu 22.04, macOS 14, Windows 11"

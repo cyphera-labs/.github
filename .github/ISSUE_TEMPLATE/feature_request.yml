@@ -1,0 +1,38 @@
+name: Feature Request
+description: Suggest a feature or improvement
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Repository
+      options:
+        - cyphera-java
+        - cyphera-rust
+        - cyphera-go
+        - cyphera-python
+        - cyphera-node
+        - cyphera-dotnet
+        - cyphera-php
+        - cyphera-spring
+        - cyphera-trino
+        - cyphera-postgres
+        - cyphera-snowflake
+        - cyphera-databricks
+        - cyphera-informatica
+        - cyphera-bq
+        - General / new integration
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this to work?
