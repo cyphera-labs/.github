@@ -15,6 +15,7 @@ Open source data protection — cross-language SDKs and native database integrat
 | [Node.js](https://github.com/cyphera-labs/cyphera-node) | [![npm](https://img.shields.io/npm/v/cyphera)](https://www.npmjs.com/package/cyphera) | `npm install cyphera` |
 | [.NET](https://github.com/cyphera-labs/cyphera-dotnet) | [![NuGet](https://img.shields.io/nuget/v/Cyphera)](https://www.nuget.org/packages/Cyphera) | `dotnet add package Cyphera` |
 | [PHP](https://github.com/cyphera-labs/cyphera-php) | [![Packagist](https://img.shields.io/packagist/v/cyphera/cyphera)](https://packagist.org/packages/cyphera/cyphera) | `composer require cyphera/cyphera` |
+| [Ruby](https://github.com/cyphera-labs/cyphera-ruby) | [![Gem](https://img.shields.io/gem/v/cyphera)](https://rubygems.org/gems/cyphera) | `gem install cyphera` |
 
 ## Integrations
 
