@@ -16,6 +16,7 @@ Open source data protection — cross-language SDKs and native database integrat
 | [.NET](https://github.com/cyphera-labs/cyphera-dotnet) | [![NuGet](https://img.shields.io/nuget/v/Cyphera)](https://www.nuget.org/packages/Cyphera) | `dotnet add package Cyphera` |
 | [PHP](https://github.com/cyphera-labs/cyphera-php) | [![Packagist](https://img.shields.io/packagist/v/cyphera/cyphera)](https://packagist.org/packages/cyphera/cyphera) | `composer require cyphera/cyphera` |
 | [Ruby](https://github.com/cyphera-labs/cyphera-ruby) | [![Gem](https://img.shields.io/gem/v/cyphera)](https://rubygems.org/gems/cyphera) | `gem install cyphera` |
+| [Swift](https://github.com/cyphera-labs/cyphera-swift) | [![SPI](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcyphera-labs%2Fcyphera-swift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cyphera-labs/cyphera-swift) | `.package(url: "...cyphera-swift.git")` |
 
 ## Integrations
 
@@ -35,9 +36,49 @@ Open source data protection — cross-language SDKs and native database integrat
 | [StreamSets](https://github.com/cyphera-labs/cyphera-streamsets) | cyphera-streamsets | StreamSets Processor | cyphera-java | 0.0.1-alpha.3 |
 | [Spring Boot](https://github.com/cyphera-labs/cyphera-spring) | cyphera-spring | Auto-configured starter | cyphera-java | 0.0.1-alpha.3 |
 
+## Build Status
+
+### SDKs
+| | CI | Security |
+|---|---|---|
+| Java | [![CI](https://github.com/cyphera-labs/cyphera-java/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-java/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-java/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-java/actions/workflows/codeql.yml) |
+| Rust | [![CI](https://github.com/cyphera-labs/cyphera-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-rust/actions/workflows/ci.yml) | [![Security](https://github.com/cyphera-labs/cyphera-rust/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-rust/actions/workflows/codeql.yml) |
+| Go | [![CI](https://github.com/cyphera-labs/cyphera-go/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-go/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-go/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-go/actions/workflows/codeql.yml) |
+| Python | [![CI](https://github.com/cyphera-labs/cyphera-python/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-python/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-python/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-python/actions/workflows/codeql.yml) |
+| Node | [![CI](https://github.com/cyphera-labs/cyphera-node/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-node/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-node/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-node/actions/workflows/codeql.yml) |
+| .NET | [![CI](https://github.com/cyphera-labs/cyphera-dotnet/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-dotnet/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-dotnet/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-dotnet/actions/workflows/codeql.yml) |
+| PHP | [![CI](https://github.com/cyphera-labs/cyphera-php/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-php/actions/workflows/ci.yml) | [![Security](https://github.com/cyphera-labs/cyphera-php/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-php/actions/workflows/codeql.yml) |
+| Ruby | [![CI](https://github.com/cyphera-labs/cyphera-ruby/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-ruby/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-ruby/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-ruby/actions/workflows/codeql.yml) |
+| Swift | [![CI](https://github.com/cyphera-labs/cyphera-swift/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-swift/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-swift/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-swift/actions/workflows/codeql.yml) |
+
+### Integrations
+| | CI | Security |
+|---|---|---|
+| Hibernate | [![CI](https://github.com/cyphera-labs/cyphera-hibernate/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-hibernate/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-hibernate/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-hibernate/actions/workflows/codeql.yml) |
+| Kafka Connect | [![CI](https://github.com/cyphera-labs/cyphera-kafka-connect/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-kafka-connect/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-kafka-connect/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-kafka-connect/actions/workflows/codeql.yml) |
+| Spring Boot | [![CI](https://github.com/cyphera-labs/cyphera-spring/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-spring/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-spring/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-spring/actions/workflows/codeql.yml) |
+| Trino | [![CI](https://github.com/cyphera-labs/cyphera-trino/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-trino/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-trino/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-trino/actions/workflows/codeql.yml) |
+| PostgreSQL | [![CI](https://github.com/cyphera-labs/cyphera-postgres/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-postgres/actions/workflows/ci.yml) | [![Security](https://github.com/cyphera-labs/cyphera-postgres/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-postgres/actions/workflows/codeql.yml) |
+| BigQuery | [![CI](https://github.com/cyphera-labs/cyphera-bq/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-bq/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-bq/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-bq/actions/workflows/codeql.yml) |
+| Snowflake | [![CI](https://github.com/cyphera-labs/cyphera-snowflake/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-snowflake/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/cyphera-snowflake/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-snowflake/actions/workflows/codeql.yml) |
+| Conformance | [![CI](https://github.com/cyphera-labs/cyphera-conformance/actions/workflows/conformance.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-conformance/actions/workflows/conformance.yml) | — |
+
+### Keychains
+| | CI | Security |
+|---|---|---|
+| Java | [![CI](https://github.com/cyphera-labs/keychain-java/actions/workflows/test.yml/badge.svg)](https://github.com/cyphera-labs/keychain-java/actions/workflows/test.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-java/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-java/actions/workflows/codeql.yml) |
+| Rust | [![CI](https://github.com/cyphera-labs/keychain-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/keychain-rust/actions/workflows/ci.yml) | [![Security](https://github.com/cyphera-labs/keychain-rust/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-rust/actions/workflows/codeql.yml) |
+| Node | [![CI](https://github.com/cyphera-labs/keychain-node/actions/workflows/test.yml/badge.svg)](https://github.com/cyphera-labs/keychain-node/actions/workflows/test.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-node/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-node/actions/workflows/codeql.yml) |
+| Python | [![CI](https://github.com/cyphera-labs/keychain-python/actions/workflows/test.yml/badge.svg)](https://github.com/cyphera-labs/keychain-python/actions/workflows/test.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-python/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-python/actions/workflows/codeql.yml) |
+| .NET | [![CI](https://github.com/cyphera-labs/keychain-dotnet/actions/workflows/test.yml/badge.svg)](https://github.com/cyphera-labs/keychain-dotnet/actions/workflows/test.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-dotnet/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-dotnet/actions/workflows/codeql.yml) |
+| Go | [![CI](https://github.com/cyphera-labs/keychain-go/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/keychain-go/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-go/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-go/actions/workflows/codeql.yml) |
+| Swift | [![CI](https://github.com/cyphera-labs/keychain-swift/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/keychain-swift/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-swift/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-swift/actions/workflows/codeql.yml) |
+| PHP | [![CI](https://github.com/cyphera-labs/keychain-php/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/keychain-php/actions/workflows/ci.yml) | [![Security](https://github.com/cyphera-labs/keychain-php/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-php/actions/workflows/codeql.yml) |
+| Ruby | [![CI](https://github.com/cyphera-labs/keychain-ruby/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/keychain-ruby/actions/workflows/ci.yml) | [![CodeQL](https://github.com/cyphera-labs/keychain-ruby/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-ruby/actions/workflows/codeql.yml) |
+
 ## Cross-Language Compatible
 
-All seven SDKs produce identical output for the same inputs:
+All SDKs produce identical output for the same inputs:
 
 ```
 Input:       123-45-6789
