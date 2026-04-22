@@ -99,35 +99,6 @@ Certificate authority and PKI lifecycle server.
 
 ---
 
-## Cross-Language Compatible
-
-All data obfuscation SDKs produce identical output for the same inputs:
-
-```
-Input:       123-45-6789
-Java:        T01i6J-xF-07pX
-Rust:        T01i6J-xF-07pX
-Node:        T01i6J-xF-07pX
-Python:      T01i6J-xF-07pX
-Go:          T01i6J-xF-07pX
-.NET:        T01i6J-xF-07pX
-PHP:         T01i6J-xF-07pX
-```
-
-Encrypt in Go, decrypt in Python. Same configuration, every language, every platform.
-
-## Quick Start
-
-```python
-from cyphera import Cyphera
-
-c = Cyphera.load()
-protected = c.protect("123-45-6789", "ssn")   # → "T01i6J-xF-07pX"
-accessed = c.access(protected)                  # → "123-45-6789"
-```
-
----
-
 **Website**: [cyphera.io](https://cyphera.io) · **License**: Apache 2.0
 
 Cyphera is a [Horizon Digital Engineering LLC](https://horizondigital.dev) project.
