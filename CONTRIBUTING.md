@@ -1,35 +1,33 @@
 # Contributing to Cyphera
 
-Thanks for your interest in contributing to Cyphera.
+Thanks for your interest in Cyphera.
 
-## Getting Started
+Most of our projects are in **early, active development**. APIs, formats, and
+internals are still changing quickly and we're moving fast — so **we're not set
+up to take outside code contributions (pull requests) just yet**. Unsolicited
+PRs may sit unreviewed or get closed simply because the surrounding code has
+already moved on.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feat/my-feature`)
-3. Make your changes
-4. Run tests (see each repo's README for language-specific instructions)
-5. Commit with a descriptive message
-6. Push and open a Pull Request
+That will change as things stabilize. In the meantime, the most useful thing you
+can do is tell us when something is broken.
 
-## Pull Request Expectations
+## Found a bug?
 
-- Tests pass
-- Code follows existing patterns in the repo
-- One logical change per PR
-- Describe what and why in the PR description
+Please open an issue. Helpful reports include:
 
-## Reporting Issues
-
-Use the issue templates provided. Include:
 - What you expected to happen
 - What actually happened
 - Steps to reproduce
-- Language/version/platform
+- Version / platform / language (whichever applies)
 
-## Cross-Language Compatibility
+We do read these, and we'll look into them.
 
-Cyphera SDKs must produce identical output across all languages for the same inputs. If you're modifying encryption logic, verify your change passes the cross-language test vectors in the `cyphera-test-vectors` repo.
+## Found a security issue?
 
-## License
+Please **don't** open a public issue. Follow the disclosure steps in that
+repository's `SECURITY.md` and report it privately.
 
-By contributing, you agree that your contributions will be licensed under the Apache License 2.0.
+## Want to follow along?
+
+Star or watch the repos you care about. Once a project is ready for outside
+contributions, the guidelines will live here.
