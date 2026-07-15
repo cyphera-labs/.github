@@ -101,11 +101,9 @@ Certificate authority and PKI lifecycle server.
 
 ## Kernel
 
-A from-scratch, memory-safe operating-system kernel written in Rust — boots to userspace and runs real workloads, including Doom.
-
 | Project | CI |
 |---|---|
-| [**Cyphera Kernel**](https://github.com/cyphera-labs/cyphera-kernel) — memory-safe Rust kernel; boots to userspace and runs real workloads | [![Tests](https://github.com/cyphera-labs/cyphera-kernel/actions/workflows/tests.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-kernel/actions/workflows/tests.yml) |
+| [**Cyphera Kernel**](https://github.com/cyphera-labs/cyphera-kernel) — a from-scratch, memory-safe operating-system kernel written in Rust | [![Tests](https://github.com/cyphera-labs/cyphera-kernel/actions/workflows/tests.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-kernel/actions/workflows/tests.yml) |
 
 ---
 
