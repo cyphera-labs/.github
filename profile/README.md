@@ -67,9 +67,9 @@ KMIP 1.4 key management — open-source server and client libraries for nine lan
 
 ### Server
 
-| | |
+| Server | CI |
 |---|---|
-| [**Open KMIP Server**](https://github.com/cyphera-labs/open-kmip-server) | 27 KMIP operations, mTLS, REST API, server-side crypto, audit, dashboard — `v0.1.0-alpha.1` |
+| [**Open KMIP Server**](https://github.com/cyphera-labs/open-kmip-server) — 27 KMIP operations, mTLS, REST API, server-side crypto, audit, dashboard (`v0.1.0-alpha.1`) | [![CI](https://github.com/cyphera-labs/open-kmip-server/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/open-kmip-server/actions/workflows/ci.yml) |
 
 ### KMIP Client Libraries
 
@@ -93,9 +93,19 @@ KMIP 1.4 key management — open-source server and client libraries for nine lan
 
 Certificate authority and PKI lifecycle server.
 
-| | |
+| Server | CI |
 |---|---|
-| [**Open PKI Server**](https://github.com/cyphera-labs/open-pki-server) | CA hierarchy, issuance, CRL, OCSP, CSR support, dashboard — `v0.1.0-alpha.1` |
+| [**Open PKI Server**](https://github.com/cyphera-labs/open-pki-server) — CA hierarchy, issuance, CRL, OCSP, CSR support, dashboard (`v0.1.0-alpha.1`) | [![CI](https://github.com/cyphera-labs/open-pki-server/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/open-pki-server/actions/workflows/ci.yml) |
+
+---
+
+## Kernel
+
+A from-scratch, memory-safe operating-system kernel written in Rust — boots to userspace and runs real workloads, including Doom.
+
+| Project | CI |
+|---|---|
+| [**Cyphera Kernel**](https://github.com/cyphera-labs/cyphera-kernel) — memory-safe Rust kernel; boots to userspace and runs real workloads | [![Tests](https://github.com/cyphera-labs/cyphera-kernel/actions/workflows/tests.yml/badge.svg)](https://github.com/cyphera-labs/cyphera-kernel/actions/workflows/tests.yml) |
 
 ---
 
